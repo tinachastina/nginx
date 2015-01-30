@@ -1,3 +1,3 @@
-source "https://supermarket.chef.io"
+site :opscode
 
-metadata
+cookbook 'nginx', '~> 2.0'
